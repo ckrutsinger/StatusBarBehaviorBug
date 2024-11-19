@@ -13,7 +13,7 @@
         {
             MainThread.BeginInvokeOnMainThread(async () =>
             {
-                await Shell.Current.GoToAsync("//Tabbar");
+                await Shell.Current.GoToAsync("//MainPage");
 
             });
    
